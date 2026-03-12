@@ -1,10 +1,7 @@
 package domain.pokemons;
 
-public class Pikachu {
-    public String nick;
-    public Integer cp;
-    public Integer hp;
-    
+public class Pikachu extends Pokemon {
+        
     public void thunderbolt() {
         System.out.println("Pikachu usou Thunderbolt!");
     }
