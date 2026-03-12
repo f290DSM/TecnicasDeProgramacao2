@@ -46,4 +46,10 @@ public abstract class Pokemon {
         }
         this.hp = hp;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s(nick=%s, cp=%d, hp=%d)", 
+        getClass().getSimpleName(), nick, cp, hp);
+    }
 }
