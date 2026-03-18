@@ -1,6 +1,6 @@
 package domain.pokemons;
 
-public class Squartle extends Pokemon implements WaterType{
+public class Squartle extends Pokemon implements WaterType {
 
     public Squartle(String nick, Integer cp, Integer hp) {
         super(nick, cp, hp);
@@ -15,5 +15,5 @@ public class Squartle extends Pokemon implements WaterType{
     public void splash() {
         System.out.println("Squartle usou Splash!");
     }
-    
+
 }
