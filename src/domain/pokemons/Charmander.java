@@ -1,6 +1,6 @@
 package domain.pokemons;
 
-public class Charmander extends Pokemon {
+public class Charmander extends Pokemon implements FireType {
         
     public Charmander(String nick, Integer cp, Integer hp) {
         super(nick, cp, hp);
@@ -12,6 +12,11 @@ public class Charmander extends Pokemon {
 
     @Override
     public void attack() {
-        System.out.println("Charmander usou Attack!");
+        amber();
+    }
+
+    @Override
+    public void amber() {
+        System.out.println("Charmander usou Amber!");
     }
 }

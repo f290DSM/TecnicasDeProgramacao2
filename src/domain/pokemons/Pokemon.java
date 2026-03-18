@@ -59,7 +59,7 @@ public abstract class Pokemon {
 
     @Override
     public String toString() {
-        return String.format("%s(nick=%s, cp=%d, hp=%d)", 
+        return String.format("%s(nick='%s', cp=%d, hp=%d)\n", 
         getClass().getSimpleName(), nick, cp, hp);
     }
 }

@@ -8,11 +8,11 @@ public class Blaziken extends Pokemon implements FireType {
 
     @Override
     public void attack() {
-        ember();
+        amber();
     }
 
     @Override
-    public void ember() {
+    public void amber() {
         System.out.println("Blaziken usou Ember!");
     }
     
