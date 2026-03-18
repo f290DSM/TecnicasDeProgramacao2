@@ -10,4 +10,9 @@ public class Raichu extends Pokemon implements EletricType {
     public void thunderbolt() {
         System.out.println("Raichu usou Thunderbolt!");
     }
+
+    @Override
+    public void attack() {
+        thunderbolt();
+    }
 }

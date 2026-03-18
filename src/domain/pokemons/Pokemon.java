@@ -11,6 +11,16 @@ public abstract class Pokemon {
         setHp(hp);
     }
 
+    public void iChooseYou() {
+        System.out.println("Pokemon " + getNick() + " eu escolho você!");
+    }
+
+    public void comeBack() {
+        System.out.println("Pokemon " + getNick() + " volte!");
+    }
+
+    public abstract void attack();
+
     // Getters
     public String getNick() {
         return nick;

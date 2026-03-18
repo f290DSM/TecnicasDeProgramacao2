@@ -9,4 +9,9 @@ public class Charmander extends Pokemon {
     public void ambar() {
         System.out.println("Charmander usou Ambar!");
     }
+
+    @Override
+    public void attack() {
+        System.out.println("Charmander usou Attack!");
+    }
 }

@@ -6,6 +6,11 @@ public class Pikachu extends Pokemon implements EletricType {
     }
 
     @Override
+    public void attack() {
+        thunderbolt();
+    }
+
+    @Override
     public void thunderbolt() {
         System.out.println("Pikachu usou Thunderbolt!");
     }
